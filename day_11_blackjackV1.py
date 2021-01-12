@@ -49,6 +49,11 @@ def count_card(check_cards):
     else:
         return sum(check_cards)
 
+# 0x9cbb4195bebb36eaa9e4af6272a741a97d7f109a
+# ETH-CEL
+# USDC-ETH
+# USDC-GRT
+
 
 def blackjack(show_player_cards, show_dealer_cards):
     player_sum = count_card(show_player_cards)
